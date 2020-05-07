@@ -1,0 +1,95 @@
+[
+  {
+    "id": 1,
+    "supplier_id": 11,
+    "purchase_order_number": "200",
+    "stock_purchase_process_ids": [
+      0
+    ],
+    "issue_date": "2020-05-07T09:32:28.213Z",
+    "items": [
+      {
+        "id": 1,
+        "product_item_id": 1,
+        "quantity": 10,
+        "last_updated_user_entity_id": 200,
+        "transient_identifier": "tid",
+        "active_flag": true,
+        "last_updated": "2020-05-07T09:32:28.213Z"
+      },
+      {
+        "id": 2,
+        "product_item_id": 2,
+        "quantity": 10,
+        "last_updated_user_entity_id": 200,
+        "transient_identifier": "tid",
+        "active_flag": true,
+        "last_updated": "2020-05-07T09:32:28.213Z"
+      },
+      {
+        "id": 3,
+        "product_item_id": 3,
+        "quantity": 10,
+        "last_updated_user_entity_id": 200,
+        "transient_identifier": "tid",
+        "active_flag": true,
+        "last_updated": "2020-05-07T09:32:28.213Z"
+      },
+      {
+        "id": 4,
+        "product_item_id": 4,
+        "quantity": 10,
+        "last_updated_user_entity_id": 200,
+        "transient_identifier": "tid",
+        "active_flag": true,
+        "last_updated": "2020-05-07T09:32:28.213Z"
+      }
+    ],
+    "invoices": [
+      {
+        "id": 11,
+        "invoice_number": "101",
+        "received_status": 1,
+        "created": "2020-05-07T09:32:28.213Z",
+        "last_updated_user_entity_id": 10,
+        "transient_identifier": "tid",
+        "receipts": [
+          {
+            "id": 110,
+            "product_item_id": 110,
+            "received_quantity": 20,
+            "created": "2020-05-07T09:32:28.213Z",
+            "last_updated_user_entity_id": 10,
+            "transient_identifier": "tid2",
+            "sent_date": "2020-05-07T09:32:28.213Z",
+            "active_flag": true,
+            "last_updated": "2020-05-07T09:32:28.213Z"
+          }
+        ],
+        "receipt_sent_date": "2020-05-07T09:32:28.213Z",
+        "active_flag": true,
+        "last_updated": "2020-05-07T09:32:28.213Z"
+      }
+    ],
+    "cancellations": [
+      {
+        "id": 1,
+        "product_item_id": 2,
+        "ordered_quantity": 11,
+        "last_updated_user_entity_id": 0,
+        "created": "2020-05-07T09:32:28.213Z",
+        "transient_identifier": "string"
+      }
+    ],
+    "status": 1,
+    "active_flag": true,
+    "last_updated": "2020-05-07T09:32:28.213Z",
+    "last_updated_user_entity_id": 0,
+    "sent_date": "2020-05-07T09:32:28.213Z",
+    "server_timestamp": 0,
+    "device_key": "string",
+    "approval_status": 1,
+    "preferred_delivery_date": "2020-05-07T09:32:28.213Z",
+    "delivery_note": "string"
+  }
+]
